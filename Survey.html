@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" intial-scale="1.0">
+	<head>
+		<title>Dating Survey</title>
+		<link rel="stylesheet" type="text/css" href="/storage/emulated/0/ECX/Survey.css">
+		<link rel="icon" type="image/png" href="/storage/emulated/0/ECX/love.png" sizes="16x16">
+	</head>
+	<body>
+		<h1><center>DATING</center></h1>
+		<p>This survey is needed to gather more information on Dating.</p>
+		<form action="/storage/emulated/0/ECX/survey.html" target="_self">
+			<label for="yname">*Name</label><br>
+				<input type="text" id="yname" name="yname"><br><br>
+			<label for="email">*Email</label><br>
+				<input type="text" id="email" name="email"><br><br>
+			<label for="gender">*Gender</label><br>
+				<input type="radio" id="gender" name="gender" value="Male">Male<br>
+				<input type="radio" id="gender" name="gender" value="Female">Female<br><br>
+			<label for="age">*What, in your opinion, is the best age to start dating?</label><br>
+			<select name="age">
+				<option value="Choose">Choose</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20 and above">20 and above</option>
+			</select><br><br>
+			<label for="info">*In a relationship, who is more committed?</label><br>
+				<input type="radio" id="info" name="commitment" value="Guy">Guy<br>
+				<input type="radio" id="info" name="commitment" value="Lady">Lady<br><br>
+			<label for="causes">*What causes break-ups in relationships?</label><br>
+			<input list="causes" name="cause">
+			<datalist id="causes">
+				<option value="Trust">
+				<option value="Lack of commitment">
+				<option value="Money">
+				<option value="Cheating">
+			</datalist><br>
+			<label for="other">State other:</label>
+				<input type="text" id="other" name="other"><br><br>
+		<div class="q">
+			<label for="quality">*What qualities do you, as an individual, want in the opposite sex?</label><br>
+				<textarea name="message" id="quality" cols="30" rows="10"></textarea><br>
+		</div>
+		<div class="submit">
+			<input type="submit" value="Submit">
+		</div>
+		</form>
+	</body>
+</html>
