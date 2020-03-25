@@ -1,0 +1,24 @@
+h1{
+	color: gold;
+	text-shadow: 2px 2px green;
+	font: 
+}
+body{
+	background-image: url("/storage/emulated/0/ECX/loveb.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.submit input{
+	border-radius: 50%;
+	background-color: pink;
+	font-family: Courier New;
+}
+.q textarea{
+	font-family: Times New Roman;
+}
+@media screen and (min-device-width: 600px) {
+	html{
+		height: 100%;
+	}
+}
