@@ -4,7 +4,7 @@ h1{
 	font-family: Times New Roman;
 }
 body{
-	background-image: url("/storage/emulated/0/ECX/loveb.jpeg");
+	background-image: url("loveb.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
